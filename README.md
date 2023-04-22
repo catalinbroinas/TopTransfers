@@ -1,5 +1,5 @@
 # Top 5 Premier League Transfers 2020-2021 - A Presentation Website
-This is a Presentation Website. 
+This is a Presentation Website. This site was made in Romanian.
 # Web Technologies Used
 * HTML
 * CSS
