@@ -1,0 +1,335 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html, body, header 
+{
+ height: 100%; 
+}
+
+/* Full Page Carousel itself*/
+ .carousel {
+ height: 100%; }
+ .carousel .carousel-inner {
+ height: 100%; }
+ .carousel .carousel-inner .carousel-item,
+ .carousel .carousel-inner .active {
+ height: 100%; }
+
+/* Background Colors */
+.colorPurple6A1
+{
+	background-color: #6A1B9A;
+}
+.bgLightBlue
+{
+	background-color: #E1F5FE;
+}
+.bgLightBlue1
+{
+	background-color: #B3E5FC;
+}
+.bgCity
+{
+	background-image: url("https://logodownload.org/wp-content/uploads/2017/02/manchester-city-fc-logo-escudo-badge.png");
+	background-repeat: no-repeat;
+	background-position: left 1.5rem top 1rem;
+	background-size: 3rem 3rem;
+}
+.bgT
+{
+	background-color: transparent;
+}
+
+/* Color */
+.colorRCC
+{
+	color: #CC0000;
+}
+.colorB1E
+{
+	color: #1E88E5;
+}
+
+/* Mask */
+.maskBlack5
+{
+	background: rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+/* Image */
+.carousel-control-prev-icon, .carousel-control-next-icon
+{
+	color: white;
+}
+#portugalFlag
+{
+	width: 2rem;
+	height: 2rem;
+}
+.teamIcon
+{
+	width: 5rem;
+	height: 5rem;
+}
+.teamIconSL
+{
+	width: 4rem;
+	height: 4rem;
+}
+.imgFluid
+{
+	width: 100%;
+	height: auto;
+}
+.fa-search-plus
+{
+	color: rgba(255, 255, 255, 0.8);
+}
+.cardTransfer .teamIconSL
+{
+	width: 6rem;
+	height: 6rem;
+}
+.cardTransfer .teamIcon
+{
+	width: 7rem;
+	height: 7rem;
+}
+.imageWrapp
+{
+	position: relative;
+	text-align: center;
+	color: white;
+	font-family: "Arial Black", sans-serif;
+}
+.imgTextCenter
+{
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+#infoThomasCareer .imgTeam
+{
+	height: 5rem;
+	width: 5rem;
+}
+
+/* Typography */
+body
+{
+	font-family: Arial, sans-serif;
+}
+.wrapperTitleS1
+{
+	padding: 1rem 5rem;
+	border: 0.5rem solid white;
+}
+.titleS1
+{
+	font-weight: 900;
+}
+.subTitleS1
+{
+	font-weight: 700;
+	padding: 0 5rem;
+	margin-top: 2rem;
+}
+.titlePlayer
+{
+	font-weight: 700;
+	font-family: Verdana, sans-serif;
+}
+.place
+{
+	width: 6rem;
+	height: 6rem;
+}
+.numberCircle 
+{
+    width: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 32px;
+    border: 2px solid #6A1B9A;
+    background-color: white;
+    color: #6A1B9A;
+}
+#KaiHinfo .list-group, #KaiHinfo .list-group-item
+{
+	background-color: transparent;
+	color: white;
+	border-color: transparent;
+}
+#infoPersRD .textArialBolder .list-group-item,
+#infoPersBC .textArialBolder .list-group-item
+{
+	font-family: Arial, sans-serif;
+	font-weight: bolder;
+}
+.iconTeam
+{
+	background-color: white;
+}
+
+.slideImage
+{
+	display: none;
+}
+.cardTransfer h5
+{
+	font-family: "Arial Black", sans-serif;
+	color: #424242;
+}
+.cardTransfer .fas.buy
+{
+	color: #CC0000;
+}
+.cardTransfer .fas.sell
+{
+	color: #00C853;
+}
+.cardTransfer
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Spacing */
+.m6
+{
+	margin:  3.5rem;	
+}
+.mb6
+{
+	margin-bottom:  3.5rem;	
+}
+.mt6
+{
+	margin-top: 3.5rem;
+}
+.mr6
+{
+	margin-right: 3.5rem;
+}
+.ml6
+{
+	margin-left: 3.5rem;
+}
+.cardTransfer .cardTransferContent
+{
+	border-bottom: 1px solid #424242;
+	width: 100%;
+}
+/* Buttons */
+.btnLightBlue
+{
+	color: white;
+	background-color: #1E88E5;
+	font-family: "Arial Black", sans-serif;
+}
+.btnLightBlue:active, .btnLightBlue:hover
+{
+	color: white;
+	background-color: #1976D2;
+}
+.pointer
+{
+	cursor: pointer;
+}
+
+/* Modal RD */
+#galleryRD button
+{
+	font-family: "Arial Black", sans-serif;
+}
+#modalGalleryRDheader
+{
+	background-color: #1E88E5;;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+#modalGalleryRDheader h4
+{
+	font-family: "Arial Black", sans-serif;
+}
+#infoThomas .infoThomasIcon
+{
+	color: #CC0000;
+	margin: 0;
+}
+#infoThomas .card-header
+{
+	border: none;
+}
+#infoThomas .infoThomasTitle, #infoThomasCareer .infoThomasTitle
+{
+	color: #CC0000;
+	font-family: "Arial Black", sans-serif;
+	margin: 0.6rem 0 0 0;
+}
+
+/* The Modal (background) */
+.modalImages {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modalImageContent {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modalImageContent 
+{
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.closeModalImage {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.closeModalImage:hover,
+.closeModalImage:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modalImageContent {
+    width: 100%;
+  }
+}
