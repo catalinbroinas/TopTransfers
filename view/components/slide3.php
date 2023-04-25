@@ -5,7 +5,7 @@
       <img src="<?php echo site_img() . 'etihad.jpg'; ?>" class="d-block w-100 h-100">
 
       <!-- Mask -->
-      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+      <div class="mask mask-slides">
       
         <!-- Container-->
         <div class="container h-100 d-flex align-items-center">
@@ -397,7 +397,7 @@
                                     
                                     <img src="<?php echo site_img() . 'city.png'; ?>" class="teamIcon" alt="Manchester City" data-mdb-toggle="tooltip" data-mdb-placement="right" title="Manchester City" />
                                     <div class="cardTransferContent">
-                                      <h5 class="h5"><i class="fas buy fa-money-bill me-2" data-mdb-toggle="tooltip" data-mdb-placement="bottom" title="Sumă plătită de Manchester City"></i><i class="fas fa-euro-sign"></i>68m</h5>
+                                      <h5 class="h5"><i class="fas buy fa-money-bill me-2" data-mdb-toggle="tooltip" data-mdb-placement="bottom" title="Sumă plătită de Manchester City"></i><i class="fas fa-euro-sign"></i>71.6m</h5>
                                     </div>
 
                                   </div>
@@ -421,7 +421,7 @@
                                     
                                     <img src="<?php echo site_img() . 'benfica.png'; ?>" class="teamIconSL" alt="SL Benfica" data-mdb-toggle="tooltip" data-mdb-placement="right" title="SL Benfica" />
                                     <div class="cardTransferContent">
-                                      <h5 class="h5"><i class="fas sell fa-money-bill me-2" data-mdb-toggle="tooltip" data-mdb-placement="bottom" title="Sumă primită de SL Benfica"></i><i class="fas fa-euro-sign"></i>68m</h5>
+                                      <h5 class="h5"><i class="fas sell fa-money-bill me-2" data-mdb-toggle="tooltip" data-mdb-placement="bottom" title="Sumă primită de SL Benfica"></i><i class="fas fa-euro-sign"></i>71.6m</h5>
                                     </div>
 
                                   </div>

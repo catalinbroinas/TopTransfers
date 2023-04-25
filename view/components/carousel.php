@@ -8,6 +8,7 @@
     <li data-mdb-target="#topTransferPL" data-mdb-slide-to="2"></li>
     <li data-mdb-target="#topTransferPL" data-mdb-slide-to="3"></li>
     <li data-mdb-target="#topTransferPL" data-mdb-slide-to="4"></li>
+    <li data-mdb-target="#topTransferPL" data-mdb-slide-to="5"></li>
   </ol>
   <!-- Indicators -->
 
@@ -20,6 +21,7 @@
     require_once 'slide3.php';
     require_once 'slide4.php'; 
     require_once 'slide5.php'; 
+    require_once 'slide6.php'; 
     ?>
     
   </div>

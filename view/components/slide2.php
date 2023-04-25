@@ -5,7 +5,7 @@
       <img src="<?php echo site_img() . 'bridge.jpg'; ?>" class="d-block w-100 h-100">
 
       <!-- Mask -->
-      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+      <div class="mask mask-slides">
       
         <!-- Container-->
         <div class="container h-100 d-flex align-items-center">
@@ -38,7 +38,7 @@
                   </li>
                   <li class="h1 list-group-item d-flex justify-content-between align-items-center">
                     <span class="badge bg-primary rounded-pill"><span class="fas fa-dollar-sign" data-mdb-toggle="tooltip" data-mdb-placement="bottom" title="Sumă transfer"></span></span>
-                    <i class="fas fa-euro-sign">73M</i>
+                    <i class="fas fa-euro-sign">80M</i>
                   </li>
                 </ul>
                 <!-- List-->

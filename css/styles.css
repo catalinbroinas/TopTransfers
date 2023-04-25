@@ -37,6 +37,14 @@ html, body, header
 {
 	background-color: transparent;
 }
+.chelsea-icon-bg
+{
+	position: fixed;
+	top: 4rem;
+	right: 45%;
+	width: 10rem;
+	height: auto;
+}
 
 /* Color */
 .colorRCC
@@ -49,6 +57,10 @@ html, body, header
 }
 
 /* Mask */
+.mask-slides
+{
+	background-color: rgba(0, 0, 0, 0.6);
+}
 .maskBlack5
 {
 	background: rgba(0, 0, 0, 0.4);
@@ -116,6 +128,11 @@ html, body, header
 	height: 5rem;
 	width: 5rem;
 }
+.infoIcon
+{
+	display: inline-block;
+	font-size: 2.5rem;
+}
 
 /* Typography */
 body
@@ -137,10 +154,43 @@ body
 	padding: 0 5rem;
 	margin-top: 2rem;
 }
+.titleContainer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flexContainer
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.infoContainer
+{
+	padding: 1rem 3rem;
+	background-color: rgba(255, 255, 255, 0.3);
+	color: rgba(0, 0, 0, 0.9);
+	margin: 0.5rem;
+	text-align: center;
+}
+#timoWernerContainer
+{
+	margin-top: 20.5rem;
+}
 .titlePlayer
 {
-	font-weight: 700;
-	font-family: Verdana, sans-serif;
+	font-family: "Arial Black", Arial, sans-serif;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	margin-left: 1rem;
+}
+.infoTitle
+{
+	margin-top: 1rem;
+	font-weight: 900;
 }
 .place
 {

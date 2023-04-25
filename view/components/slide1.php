@@ -2,10 +2,10 @@
     <div class="carousel-item active">
 
       <!-- Background -->
-      <img src="<?php echo site_img() . 'emirates.jpg'; ?>" class="d-block w-100 h-100">
+      <img src="<?php echo site_img() . 'wembley.jpg'; ?>" class="d-block w-100 h-100">
 
       <!-- Mask -->
-      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+      <div class="mask mask-slides">
       
         <!-- Container -->
         <div class="container text-white d-flex w-100 h-100 align-items-center justify-content-center">
@@ -23,7 +23,7 @@
             <!-- Wrapper title -->
 
             <!-- Display Title -->
-            <div class="display-4 subTitleS1">Top 10 Transferuri 2020-2021</div>
+            <div class="display-4 subTitleS1">Top 5 Transferuri 2020-2021</div>
 
             <!-- Buttons wrapper -->
             <div class="text-center mt-3">
