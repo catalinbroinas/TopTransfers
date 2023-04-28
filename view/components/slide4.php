@@ -54,6 +54,47 @@
 	    		</section>
 	    		<!-- Info Section -->
 
+	    		<!-- Image Slider Section -->
+	    		<section class="row">
+
+	    			<!-- Grid Col -->
+	    			<div class="col-12">
+			    		<!-- 3D Image  Slider -->
+			    		<section id="slider">
+
+			    			<!-- Controls -->
+			    			<input type="radio" name="slider" id="s1">
+							<input type="radio" name="slider" id="s2">
+							<input type="radio" name="slider" id="s3" checked>
+							<input type="radio" name="slider" id="s4">
+							<input type="radio" name="slider" id="s5">
+							<!-- Controls -->
+
+							<!-- Slides -->							
+							<label for="s1" id="slide1">
+								<img src="<?php echo site_img() . 'werner1.jpg'; ?>" alt="Timo Werner">
+							</label>
+							<label for="s2" id="slide2">
+								<img src="<?php echo site_img() . 'werner3.jpg'; ?>" alt="Timo Werner">
+							</label>
+							<label for="s3" id="slide3">
+								<img src="<?php echo site_img() . 'werner.jpg'; ?>" alt="Timo Werner">
+							</label>
+							<label for="s4" id="slide4">
+								<img src="<?php echo site_img() . 'werner2.jpg'; ?>" alt="Timo Werner">
+							</label>
+							<label for="s5" id="slide5">
+								<img src="<?php echo site_img() . 'werner4.jpg'; ?>" alt="Timo Werner">
+							</label>
+							<!-- Slides -->
+
+			    		</section>
+						<!-- 3D Image  Slider -->
+					</div>
+					<!-- Grid Col -->
+				</section>
+				<!-- Image Slider Section -->
+
 	    	</div>
 	    	<!-- Container -->
 
