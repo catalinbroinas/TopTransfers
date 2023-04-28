@@ -15,10 +15,11 @@
 	    	</div>
 	    	<!-- Title -->
 
+	    	<!-- Container -->
 	    	<div class="container mt-5">
 	    		
-	    		<!-- Flex Container -->
-	    		<div class="flexContainer">
+	    		<!-- Info Section -->
+	    		<section class="flexContainer">
 	    				
 	    			<div class="infoContainer">
 	            		<span class="fas fa-calendar-day infoIcon"></span>
@@ -50,10 +51,11 @@
 	    				<h4 class="infoTitle">92</h4>
 	    			</div>
 
-	    		</div>
-	    		<!-- Flex Container -->
+	    		</section>
+	    		<!-- Info Section -->
 
 	    	</div>
+	    	<!-- Container -->
 
 	    </div>
 	    <!-- Mask -->

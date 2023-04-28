@@ -16,8 +16,8 @@
 	            	<!-- Title -->
 	            	<div class="display-4 titlePlayer text-center mb-5 d-flex align-items-center justify-content-center"><img src="<?php echo site_img() . '5.png'; ?>" class="place me-3 my-auto">Thomas Partey</div>
 
-	            	<!-- Grid row-->
-	       			<div id="infoThomas" class="row">
+	            	<!-- Info Section -->
+	       			<section id="infoThomas" class="row">
 
 	       				<!-- Grid col-->
 	            		<div class="col-lg-2">
@@ -145,11 +145,11 @@
 	            		</div>
 	            		<!-- Grid col-->
 
-	       			</div>
-	       			<!-- Grid row-->
+	       			</section>
+	       			<!-- Info Section -->
 
-	       			<!-- Grid row -->
-	       			<div class="row mt-3">
+	       			<!-- Transfer Section -->
+	       			<section class="row mt-3">
 	       				
 	       				<!-- Grid col-->
 		              	<div class="col-lg-4 d-flex flex-center">
@@ -255,8 +255,8 @@
 		              	</div>
 		              	<!-- Grid col-->
 
-	       			</div>
-	       			<!-- Grid row -->
+	       			</section>
+	       			<!-- Transfer Section -->
 
 	            </div>
 	            <!-- Grid row-->
